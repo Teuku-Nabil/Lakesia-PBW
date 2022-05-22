@@ -83,7 +83,7 @@
             <!-- profil lansia-->
             <div class="circle-profil"></div>
             <div> <img class="foto-profil" src="/img/Profile-Logo.png" alt="Foto profil"></div>
-            <div> <a style="color:red; left: 1400px;top: 40px;" href="/">Logout</a></div>
+            <div> <a class="logout" style="color:red;" href="/">Logout</a></div>
             <div class="box-name">{{$l->nama_lan}}</div>
             <div class="box-profil-1">
 

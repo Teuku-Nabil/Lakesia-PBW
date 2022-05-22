@@ -242,6 +242,7 @@ Pop up --> menampilkan pop up untuk daftar jenis akun
 
 #box:target {
     display: block;
+    z-index: 2;
 }
 
 .batal {

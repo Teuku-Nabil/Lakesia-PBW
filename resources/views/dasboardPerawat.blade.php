@@ -29,7 +29,7 @@
             @foreach($perawat as $per)
             <div class="circle-profil"></div>
             <div> <img class="foto-profil" src="/img/Profile-Logo.png" alt="Foto profil"></div>
-            <div> <a style="color:red; left: 1400px;top: 40px;" href="/">Logout</a></div>
+            <div> <a class="logout" style="color:red;" href="/">Logout</a></div>
             <div class="box-name">{{$per->nama_per}}</div>
             <div class="box-profil-1">
 
@@ -81,7 +81,7 @@
                 <div class="daftar-pasien-text">Daftar Pasien</div>
             </div>
 
-                <table width=52% class="daftar-nama-lansia">
+                <table width=37% class="daftar-nama-lansia">
                     <thead>
                         <tr>
                             <td class="header">Nama Lansia</td>

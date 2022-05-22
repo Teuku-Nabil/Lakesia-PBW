@@ -402,3 +402,9 @@
     cursor: pointer;
     font-size: 10px;
 }
+
+.logout{
+    position: absolute;
+    left: 1100px;
+    top: 50px;
+}

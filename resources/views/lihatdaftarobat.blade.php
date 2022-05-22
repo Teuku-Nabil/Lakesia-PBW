@@ -26,7 +26,7 @@
             <tbody>
             @foreach($obat as $o)
                 <tr>
-                <td>{{$o->nama_lan}}</td>
+                <td>{{$o->username_lan}}</td>
                 <td>{{$o->nama_obat}}</td>
                 <td>{{$o->jadwal}}</td>
                 </tr>
